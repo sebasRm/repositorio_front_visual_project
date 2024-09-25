@@ -1,7 +1,7 @@
 {
   "phases": {
     "install": {
-      "cmds": ["npm install --legacy-peer-deps --omit=dev"]
+      "cmds": ["npm install --force --omit=dev"]
     }
   }
 }
