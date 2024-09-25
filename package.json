@@ -29,7 +29,6 @@
     "sweetalert2": "^11.7.12"
   },
   "scripts": {
-    "install": "npm install --legacy-peer-deps",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest",
