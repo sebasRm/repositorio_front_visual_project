@@ -1,5 +1,7 @@
 {
   "phases": {
-    "install": "npm install --legacy-peer-deps"
+    "install": {
+      "cmd": "npm install --legacy-peer-deps"
+    }
   }
 }
