@@ -29,6 +29,7 @@
     "sweetalert2": "^11.7.12"
   },
   "scripts": {
+    "install": "npm install --force --omit=dev",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest",
