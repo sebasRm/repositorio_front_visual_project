@@ -1,7 +1,1 @@
-{
-  "phases": {
-    "install": {
-      "cmds": ["npm install --force --omit=dev"]
-    }
-  }
-}
+
