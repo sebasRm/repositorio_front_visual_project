@@ -1,7 +1,10 @@
 {
   "phases": {
     "install": {
-      "cmds": ["NODE_OPTIONS='--max-old-space-size=4096' npm install --legacy-peer-deps"]
+      "cmd": ["NODE_OPTIONS='--max-old-space-size=4096' npm install --legacy-peer-deps"]
+    }
+    "start": {
+      "cmd": "NODE_OPTIONS=--max-old-space-size=4096 npm start"
     }
   }
 }
