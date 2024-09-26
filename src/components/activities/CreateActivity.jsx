@@ -108,7 +108,7 @@ export const CreateActivity = () => {
       field: "correo",
     },
   ];
-  const [isChecked, setIsChecked] = useState(false);
+  const [isChecked, setIsChecked] = useState(true);
   async function createActivity() {
     let activity = {
       data: {
