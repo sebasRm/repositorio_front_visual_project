@@ -103,7 +103,7 @@ export const ModalCrearDirector = () => {
               className="form-control"
               aria-label="emailname"
               aria-describedby="basic-addon1"
-              placeholder="Ingresa el nombre de líder"
+              placeholder="Ingresa el nombre de director"
               style={{
                 marginTop: "2rem",
                 width: "15rem",
@@ -134,7 +134,7 @@ export const ModalCrearDirector = () => {
               className="form-control"
               aria-label="emailname"
               aria-describedby="basic-addon1"
-              placeholder="Ingresa correo de líder"
+              placeholder="Ingresa correo del director"
               style={{
                 marginTop: "2rem",
                 width: "15rem",
@@ -164,7 +164,7 @@ export const ModalCrearDirector = () => {
               className="form-control"
               aria-label="emailname"
               aria-describedby="basic-addon1"
-              placeholder="contraseña para cuenta de lider"
+              placeholder="contraseña para cuenta de director"
               style={{
                 marginTop: "1rem",
                 width: "15rem",
