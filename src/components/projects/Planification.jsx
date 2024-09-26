@@ -47,7 +47,7 @@ export const Planification = () => {
 
   const handleAddPlaneation = () => {
     if (objectiveProyect !== "") {
-      if (budgetProyect !== "" && !isNaN(budgetActivity)) {
+      if (budgetProyect !== "" && !isNaN(budgetProyect)) {
         let data = {
             planeacion:{
                 idProyecto:projectLeader&& projectLeader[0].idProyecto,
